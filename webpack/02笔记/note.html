@@ -1,0 +1,23 @@
+1》全局安装
+  
+   npm install webpack -g
+   npm install webpack-cli -g  （webpack4的脚手架）
+
+2》生成package.json
+
+	npm init 初始化一个项目
+
+3》局部安装  生成node-modules
+
+	npm install webpack -S  （--save）
+	npm install webpack-cli -S
+
+4》打包  : webpack 
+
+默认entry  ：src/index.js  默认入口
+默认output ：dist/main.js  执行webpack命令后默认生成dist/main.js
+(那么如何配置入口和出口呢？)
+
+压缩：  webpack --mode production  (默认打包生产环境的变成一行)
+未压缩：webpack --mode development
+

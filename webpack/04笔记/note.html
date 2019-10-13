@@ -1,0 +1,26 @@
+一、本地服务器(dev-server)
+
+
+安装：
+	
+	npm install webpack-dev-server -S
+	
+配置：
+	webpack.config.js:
+
+		devServer:{
+			contentBase:"",
+			inline
+			port
+			hot
+		}
+
+
+	配置本地服务器后怎么运行？webpack-dev-server
+	也可以在package.json  配置运行命令
+
+		"scripts":{
+			
+			"dev":"webpack-dev-server --open --inline"  自动刷新，实时打开
+
+		}
